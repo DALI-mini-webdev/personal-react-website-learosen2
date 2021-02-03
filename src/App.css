@@ -1,0 +1,41 @@
+.white-text{
+  color: white;
+}
+#purple-background{
+  background-color: rgba(187, 77, 187, 0.829);
+}
+#green-background{
+  background-color: rgb(55, 155, 55)
+}
+.green-text{
+  color: green;
+}
+body{
+  font-family: 'Times New Roman';
+  background-color: #dd9ee2 ;
+  color: rgb(0, 0, 100)
+}
+div.a{
+  text-align: center
+}
+
+.distance{
+  margin-right: 220px;
+
+}
+
+* {
+  box-sizing:border-box;
+  font-family: 'Montserrat',sans-serif;
+}
+
+p{
+  
+    margin-right: 500px;
+    margin-left: 500px;
+    
+  
+}
+
+
+
