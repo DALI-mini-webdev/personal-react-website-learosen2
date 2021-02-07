@@ -3,6 +3,8 @@ import pic from './IMG_2650.JPG';
 import beachpic from './IMG_2013.jpg'
 import bookpic from './IMG_5601.jpg'
 import Navbar from "./components/Navbar/Navbar";
+import HeaderInfo from './components/HeaderInfo';
+import MusicBoard from './components/MusicBoard';
 
 function App() {
 
@@ -31,8 +33,7 @@ function App() {
       <div class="a">
         <h1 class="white-text"> My Personal Website!</h1>
         <h2>Hi, my name is Lea Rosen!</h2>
-        <p class="purple-text" >I am from New York City, and I am a sophomore at Bates College, where I'm majoring in English Literature, with a minor in Screen Studies.</p>
-        <p class="purple-text" >In my free time, I love to write, paint, and explore Maine with my friends. At Bates, I am a member of the Slam Poetry Club and a writing tutor. I also love working in our local community in Lewiston-Auburn.</p>
+       <HeaderInfo />
         <hr></hr>
         <img src = {pic} width={330} height={410}/>
        
@@ -54,6 +55,7 @@ function App() {
             return (<li>{food}</li>);
           })}
         </div>
+        <MusicBoard/>
       </div>
       
     </div>
