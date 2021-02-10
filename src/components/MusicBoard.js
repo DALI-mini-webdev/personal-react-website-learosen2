@@ -59,7 +59,7 @@ render() {
     )
 return (
      <div>
-       <p> Let's talk about music!</p>
+       <h1> Let's talk about music!</h1>
        {allMusic}
        <p>Add your favorite song:</p>
        <input type="text" value={this.state.newMusicName} onChange={this.newMusicNameFunction} />

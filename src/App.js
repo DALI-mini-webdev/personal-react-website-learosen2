@@ -5,6 +5,8 @@ import bookpic from './IMG_5601.jpg'
 import Navbar from "./components/Navbar/Navbar";
 import HeaderInfo from './components/HeaderInfo';
 import MusicBoard from './components/MusicBoard';
+import ColoredLine from './components/ColoredLine';
+import MusicPic from './IMG_6088.jpg'
 
 function App() {
 
@@ -35,9 +37,10 @@ function App() {
         <h2>Hi, my name is Lea Rosen!</h2>
        <HeaderInfo />
         <hr></hr>
-        <img src = {pic} width={330} height={410}/>
+        <img src = {pic} width={250} height={310}/>
        
         <div>
+          <ColoredLine/>
           <h2>My Favorite Things</h2>
           <p >Favorite Drink=Coffee</p>
           <p >Favorite Place=The Beach!</p>
@@ -55,6 +58,8 @@ function App() {
             return (<li>{food}</li>);
           })}
         </div>
+        <ColoredLine/>
+        <img src = {MusicPic} width={400} height={370}/>
         <MusicBoard/>
       </div>
       
