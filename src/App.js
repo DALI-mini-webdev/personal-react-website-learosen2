@@ -7,6 +7,9 @@ import HeaderInfo from './components/HeaderInfo';
 import MusicBoard from './components/MusicBoard';
 import ColoredLine from './components/ColoredLine';
 import MusicPic from './IMG_6088.jpg'
+import API from './components/API';
+
+
 
 function App() {
 
@@ -38,6 +41,7 @@ function App() {
        <HeaderInfo />
         <hr></hr>
         <img src = {pic} width={250} height={310}/>
+        <API/>
        
         <div>
           <ColoredLine/>
