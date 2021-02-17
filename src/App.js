@@ -1,17 +1,21 @@
 import './App.css';
 import pic from './IMG_2650.JPG';
-import beachpic from './IMG_2013.jpg'
-import bookpic from './IMG_5601.jpg'
+import beachpic from './IMG_2013.jpg';
+import bookpic from './IMG_5601.jpg';
 import Navbar from "./components/Navbar/Navbar";
 import HeaderInfo from './components/HeaderInfo';
 import MusicBoard from './components/MusicBoard';
 import ColoredLine from './components/ColoredLine';
-import MusicPic from './IMG_6088.jpg'
+import MusicPic from './IMG_6088.jpg';
 import API from './components/API';
+import firebase from './firebase/index';
+import ToDoBoard from './components/ToDoBoard';
 
 
 
 function App() {
+  console.log(firebase);
+  console.log(firebase.db);
 
   const name = "Lea";
   let favoriteFoods = ['Cereal','Pizza', 'Fancy Cheese'];
@@ -65,6 +69,7 @@ function App() {
         <ColoredLine/>
         <img src = {MusicPic} width={400} height={370}/>
         <MusicBoard/>
+        <ToDoBoard/>
       </div>
       
     </div>
